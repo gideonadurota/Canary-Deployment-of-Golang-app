@@ -12,4 +12,4 @@ RUN go build -o /Golang-app
 
 EXPOSE 8090
 
-CMD [ "/Golang-pp" ]
+CMD [ "/Golang-app" ]
