@@ -39,7 +39,7 @@ serviceAccount:
 
 service:
   type: LoadBalancer
-  port: 80
+  port: 8090
 
 ingress:
   enabled: false
