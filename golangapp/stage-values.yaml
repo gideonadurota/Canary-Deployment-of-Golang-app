@@ -4,11 +4,15 @@
 
 replicaCount: 1
 
+deployment:
+  name: golangv1
+  canary: true
+
 image:
   repository: golangappacr.azurecr.io/golang
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1"
+  tag: "v2"
 
 # imagePullSecrets: []
 # nameOverride: ""
