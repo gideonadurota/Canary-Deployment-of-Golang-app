@@ -11,9 +11,9 @@ spec:
     - route:
       - destination:
           host: golangapp.prod.svc.cluster.local 
-        weight: 50
+        weight: 0
       - destination:
           host: golangapp.stage.svc.cluster.local
-        weight: 50
+        weight: 100
 
 
