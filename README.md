@@ -1,4 +1,4 @@
-# golant-app
+# Deploy a Simple Golang Application to a Kubernetes Cluster Using Canary Deployment #
 
 Please review the feat/canary_deployment branch for details on the canary deployment
 
